@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #90caf9);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  transition: background 0.5s ease-in-out;
+}
+
+.container {
+  background: white;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+  min-width: 0;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #1976d2;
+}
+
+button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+button:hover {
+  background: #0d47a1;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  padding: 10px;
+  background: #e3f2fd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-word;
+  transition: all 0.3s ease;
+  list-style-type: disc;
+  color: black;
+}
+
+li::marker {
+  color: black;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  color: #f44336;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.download-btn {
+  margin-top: 15px;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .input-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
