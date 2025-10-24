@@ -2,9 +2,6 @@
 A simple, elegant, and fully responsive **To-Do List Application** that helps users manage daily tasks efficiently.  
 Built using **HTML**, **CSS**, and **JavaScript**, it includes animations, sound on task completion, and local storage to ensure your tasks are never lost — even after refreshing the page.
 
-## 📸 Preview  
-> ![To-Do App Screenshot](C:\Users\sarth\OneDrive\Desktop\projects\To-Do App\to-do app.png)
-
 ---
 
 ## 🏷️ Tech Badges
@@ -16,9 +13,9 @@ Built using **HTML**, **CSS**, and **JavaScript**, it includes animations, sound
 
 ---
 
-## 🔗 GitHub Repository
+## 🔗 Live Project
 
-👉 [**Visit the Project on GitHub**](https://github.com/SahilS19/to-do-app)
+👉 [**Link**](https://to-do-app-psi-self.vercel.app/)
 
 ---
 
